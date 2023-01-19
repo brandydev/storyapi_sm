@@ -3,8 +3,8 @@ package com.example.storyapi_sm.service
 import com.example.storyapi_sm.domain.entity.File
 import com.example.storyapi_sm.domain.entity.NileCollection
 import com.example.storyapi_sm.repository.FileRepository
-import com.example.util.exception.NileCommonError
-import com.example.util.exception.NileException
+import com.example.storyapi_sm.util.exception.NileCommonError
+import com.example.storyapi_sm.util.exception.NileException
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.data.domain.Pageable
 import org.springframework.stereotype.Service

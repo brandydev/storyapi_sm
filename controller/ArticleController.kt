@@ -4,9 +4,9 @@ import com.example.storyapi_sm.domain.entity.Article
 import com.example.storyapi_sm.repository.ArticleRepository
 import com.example.storyapi_sm.service.ArticleService
 import com.example.storyapi_sm.service.FileService
-import com.example.util.exception.NileCommonError
-import com.example.util.exception.NileException
-import com.example.util.response.NileResponse
+import com.example.storyapi_sm.util.exception.NileCommonError
+import com.example.storyapi_sm.util.exception.NileException
+import com.example.storyapi_sm.util.response.NileResponse
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*
